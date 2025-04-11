@@ -12,14 +12,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='dhairyasood',
-    maintainer_email='your@email.com',
-    description='Drone control package',
+    maintainer='your_name',
+    maintainer_email='your_email@example.com',
+    description='ROS 2 drone controller for PX4 and Gazebo',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'drone_control_node = drone_controller.drone_control_node:main',
+            'drone_controller = drone_controller.drone_controller:main',
         ],
     },
 )
