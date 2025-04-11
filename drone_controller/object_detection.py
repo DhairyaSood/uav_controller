@@ -50,7 +50,7 @@ while True:
         else:
             print("Obstacle in center - Moving up")
     else:
-        print("No obstacle - Moving forward")
+        print("No obstacle - Moving forwards")
 
     # Visualize the detection
     annotated_frame = results[0].plot()  # Draw bounding boxes and labels
